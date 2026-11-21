@@ -4,4 +4,4 @@
 #menu{display:block;position:relative;z-index:60;background:none;border:1px solid var(--sea);color:var(--off);font:inherit;text-transform:uppercase;padding:.6rem 1rem;min-height:44px}
 #nav{position:fixed;inset:0;background:var(--black);flex-direction:column;justify-content:center;gap:2rem;font-size:1.1rem;transform:translateX(100%);visibility:hidden;transition:transform .4s,visibility .4s}
 #nav.open{transform:none;visibility:visible}
-.steps{grid-template-columns:1fr}.tl li{grid-template-columns:1fr;gap:.4rem}.hl{columns:1}.big{min-height:10rem}.meta{grid-template-columns:1fr}.btn{width:100%;text-align:center}.brand{max-width:55%}}
+.steps{grid-template-columns:1fr}.tl>li{grid-template-columns:1fr;gap:.4rem}.hl{columns:1}.big{min-height:10rem}.meta{grid-template-columns:1fr}.btn{width:100%;text-align:center}.brand{max-width:55%}}
