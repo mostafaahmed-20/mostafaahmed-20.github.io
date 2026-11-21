@@ -115,3 +115,13 @@ footer em{font-size:1rem}
 .tl ul{margin:.75rem 0 0 1.1rem}
 .tl ul li{margin-bottom:.35rem}
 .tl .entry>p>strong{font-family:var(--sans)}
+
+/* Work with me: freelancing platform cards */
+.wgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:3rem}
+.wcard{background:var(--black);border:1px solid rgba(243,234,216,.14);display:flex;flex-direction:column;overflow:hidden;transition:transform .4s}
+.wcard:hover{transform:translateY(-6px)}
+.wthumb{display:block;width:100%;height:auto;background:var(--surf);border-bottom:1px solid rgba(243,234,216,.14)}
+.wbody{padding:clamp(1.25rem,3vw,2rem);display:flex;flex-direction:column;gap:1rem;flex:1}
+.wbody h3{font-size:clamp(1.4rem,2.4vw,2rem);line-height:1.1}
+.wbody p{opacity:.85}
+.wbody .cta{margin-top:auto;padding-top:.5rem}
