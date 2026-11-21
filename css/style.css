@@ -89,6 +89,10 @@ p+p{margin-top:1rem}
 .fgrid div{background:var(--char);padding:1.5rem;font:500 1.15rem var(--sans)}
 .fgrid small{display:flex;gap:.5rem;align-items:center;font:.7rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--sea);margin-bottom:1rem}
 .fgrid small::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--sea);animation:pulse 2s infinite}
+.socials{list-style:none;display:flex;gap:1rem;margin-top:2.5rem;padding:0;flex-wrap:wrap}
+.socials a{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--granite);border-radius:50%;color:var(--off);transition:.25s}
+.socials a:hover{background:var(--sea);border-color:var(--sea);color:var(--char);transform:translateY(-3px)}
+.socials svg{width:22px;height:22px}
 .contact h2{font-size:clamp(2.6rem,8vw,7.5rem)}
 .meta{display:grid;grid-template-columns:8rem 1fr;gap:.6rem 1rem;margin-top:3rem;font:.85rem var(--mono)}
 .meta dt{color:var(--sea);text-transform:uppercase;letter-spacing:.1em}
